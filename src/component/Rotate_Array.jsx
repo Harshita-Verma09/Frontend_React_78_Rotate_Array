@@ -21,6 +21,7 @@ function Rotate() {
         reverse(newArr, 0, d - 1);
         reverse(newArr, d, n - 1);
         reverse(newArr, 0, n - 1);
+        
 
         return newArr;
     };
